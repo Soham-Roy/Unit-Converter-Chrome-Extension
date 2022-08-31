@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    min-width: 100%;
+    background-color: #121922;
+    font-family: 'Inter', sans-serif;;
+    color: rgb(244, 249, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #1F2937;
+    width: 400px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #6943FF;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: #6943FF;
+    border: 1px solid rgb(244, 249, 255);
+    margin: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 6px;
+    min-width: 110px;
+    max-width: 200px;
+    color: inherit;
+    text-align: center;
+}
+
+#convert_btn {
+    color: #3D3D3D;
+    padding: 9px 18px;
+    width: fit-content;
+    background-color: rgb(244, 249, 255);
+    border-radius: 4px;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.card {
+    background-color: #273549;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.heading {
+    font-size: 16spx;
+    color: #CCC1FF;
+}
+
+.values {
+    font-size: 13px;
+    margin: 4px;
+}
+
+#convert_btn {
+    font-weight: 600;
+}
+
+#convert_btn:hover {
+    cursor: pointer;
+    background-color: #e2dbff;
+}
